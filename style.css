@@ -1,0 +1,28 @@
+body {
+  background: #d0eed1;
+}
+
+h1 {
+  color: #044a20;
+  background-color: #8fffaf;
+  font-family:'Courier New', Courier, monospace;
+  font-style: oblique;
+
+}
+
+h2 {
+    color: #3b644c;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #008125;
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+}
+
+footer {
+    color: #204d1d;
+    font-family: cursive;
+}
