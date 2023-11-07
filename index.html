@@ -4,20 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Strona Domowa</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <main>
-      <header>
-        <h1>Aleksandra Szegda - Strona Domowa</h1>
+      <header id="top">
+        <h1 style="color: blue;">Aleksandra Szegda - Strona Domowa</h1>
       </header>
       <section>
         <h2>Kim jestem?</h2>
-        <p>
+        <p class="aboutMe">
           Hej! Od dwoch lat ucze sie jezyka Ruby. Ta pasja zarazil mnie moj
           narzeczony i bardzoo sie z tego ciesze. Lubie sie rozwijac i kazde
           nowe zadanie jest dla mnie ciekawe. Im trudniejsze tym bardziej chce
-          go rozwiazac. Po za tym lubie tanczyc i grac w gry rpg.
+          go rozwiazac. Po za tym lubie tanczyc i grac w gry rpg. Wiecej o mnie
+          mozesz znalesc <a href="aboutMe.html">tutaj</a>.
         </p>
       </section>
       <section>
@@ -25,20 +26,39 @@
         <article>
           <h3>Uczymy sie HTML'a i CSS'ow</h3>
           <p>
-            Html jest jezykiem znacznikowym, dzieki ktoremu mozemy uporzadkowac tresc na stronie. Dodawac sekcje, naglowki, artykuly za pomoca odpowiednich znacznikow. Najprostszym znacznikiem dla zwyklego tekstu jest znacznik 'P'. CSS'y sluza nam zas do stylowania naszej strony. Mozemy zmieniac kolor tekstu czy tez tla, ale tez wiele roznych innych ciekawych rzeczy.
+            Html jest <strong>jezykiem znacznikowym</strong>, dzieki ktoremu
+            mozemy uporzadkowac tresc na stronie. Dodawac sekcje, naglowki,
+            artykuly za pomoca odpowiednich znacznikow. Najprostszym znacznikiem
+            dla zwyklego tekstu jest znacznik 'P'. CSS'y sluza nam zas do
+            stylowania naszej strony. Mozemy zmieniac kolor tekstu czy tez tla,
+            ale tez wiele roznych innych ciekawych rzeczy.
           </p>
         </article>
         <article>
-          <h3>Zalozenie tablo i stosowanie metodologii KANBAN</h3>
+          <h3>Zalozenie trello i stosowanie metodologii <em>KANBAN</em></h3>
           <p>
-            Kolejnym zadaniem bylo zalozenie tablicy i dodanie kafelkow zwiazanych z Kanban - czyli rzeczy do zrobienia (to do), rzeczy w trakcie robienia (doing) oraz rzeczy zrobione (done). Dzieki temu mozemy uporzadkowanc swoje zadania i latwiej nam zarzadzac naszym projektem.
+            Kolejnym zadaniem bylo zalozenie
+            <a href="https://trello.com" target="_blank">tablicy</a> i dodanie
+            kafelkow zwiazanych z <em>Kanban</em> - czyli rzeczy do zrobienia
+            (to do), rzeczy w trakcie robienia (doing) oraz rzeczy zrobione
+            (done). Dzieki temu mozemy uporzadkowanc swoje zadania i latwiej nam
+            zarzadzac naszym projektem.
+          </p>
+        </article>
+        <article>
+          <h3>Dodawanie linkow w HTML</h3>
+          <p>
+            Wazne jest zeby nasz projekt mial podstrony oraz linki do
+            zewnetrznych stron. Pomaga nam to uczynic nasza strone bardziej
+            czytelna i uporzadkowana.
           </p>
         </article>
       </section>
       <footer>
-        Ta strona domowa Aleksandry Szegdy jest efektem przejscia szkolenia WTF: Co
-        ten frontend.
+        Ta strona domowa Aleksandry Szegdy jest efektem przejscia szkolenia WTF:
+        Co ten frontend. <a href="#top">Do gory ⬆️</a>
       </footer>
+      <script src="main.js"></script>
     </main>
   </body>
 </html>
