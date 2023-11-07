@@ -15,6 +15,11 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.myPhoto {
+    color: aqua;
+    background-color: darkblue;
+}
+
 p {
     color: #008125;
     background-color: aquamarine;
@@ -25,4 +30,13 @@ p {
 footer {
     color: #204d1d;
     font-family: cursive;
+}
+
+a {
+    color: #0d3d1b;
+}
+
+.aboutMe {
+    color: #2bb31a;
+    background-color: black;
 }
