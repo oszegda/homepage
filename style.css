@@ -1,3 +1,13 @@
+html {
+    
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+
+    box-sizing: inherit;
+}
+
 body {
   background: #d0eed1;
 }
@@ -7,6 +17,9 @@ h1 {
   background-color: #8fffaf;
   font-family:'Courier New', Courier, monospace;
   font-style: oblique;
+  border: 3px solid darkgreen;
+  border-radius: 8px;
+  padding: 50px;
 
 }
 
@@ -29,7 +42,7 @@ p {
 
 footer {
     color: #204d1d;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a {
