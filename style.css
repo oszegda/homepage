@@ -1,5 +1,5 @@
 html {
-    
+
     box-sizing: border-box;
 }
 
@@ -10,6 +10,8 @@ html {
 
 body {
   background: #d0eed1;
+  margin-left: 30vw;
+   
 }
 
 h1 {
@@ -20,17 +22,34 @@ h1 {
   border: 3px solid darkgreen;
   border-radius: 8px;
   padding: 50px;
+  width: fit-content;
+  min-width: 745px;
 
 }
 
 h2 {
-    color: #3b644c;
+    color: #2e4f3c;
     font-family: 'Times New Roman', Times, serif;
+    min-width: 745px;
 }
 
+
+
 .myPhoto {
-    color: aqua;
-    background-color: darkblue;
+    color: #008125;
+    background-color:aquamarine;
+    padding: 10px 5px;
+    border: 1.5px solid rgb(97, 215, 175); 
+    border-radius: 10px;
+    width: fit-content;
+    min-width: 745px;
+
+}
+
+img {
+    border-radius: 100%;
+    border: 2px solid darkgreen;
+    margin-left: 10vw;
 }
 
 p {
@@ -38,11 +57,18 @@ p {
     background-color: aquamarine;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: inherit;
+    max-width: 745px;
+    min-width: 745px;
+    border: 1.5px solid rgb(97, 215, 175); 
+    border-radius: 10px;
+    padding: 5px 10px;
 }
 
 footer {
     color: #204d1d;
     font-family: 'Times New Roman', Times, serif;
+    min-width: 745px;
+    margin: 10px 0px;
 }
 
 a {
@@ -50,6 +76,10 @@ a {
 }
 
 .aboutMe {
-    color: #2bb31a;
-    background-color: black;
+    color: #0f3e08;
+    }
+
+h3 {
+    color: #0b3101;
+    min-width: 745px;
 }
