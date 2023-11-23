@@ -11,6 +11,7 @@ html {
 body {
   background: #d0eed1;
   margin-left: 30vw;
+  margin-right: 30vw;
 }
 
 h2 {
@@ -85,7 +86,7 @@ footer {
   border-radius: 8px;
   padding: 25px;
   max-width: 765px;
-  min-width: 745px;
+  min-width: 765px;
 }
 
 .section-header {
@@ -102,6 +103,7 @@ footer {
 .section {
     background: rgb(219, 248, 210);
     max-width: 765px;
+    min-width: 765px;
     padding: 1px 10px;
     margin-bottom: 5px;
     margin-top: 5px;
