@@ -13,18 +13,6 @@ body {
   margin-left: 30vw;
 }
 
-h1 {
-  color: #044a20;
-  background-color: #8fffaf;
-  font-family: "Courier New", Courier, monospace;
-  font-style: oblique;
-  border: 3px solid darkgreen;
-  border-radius: 8px;
-  padding: 50px;
-  width: fit-content;
-  min-width: 745px;
-}
-
 h2 {
   color: #2e4f3c;
   font-family: "Times New Roman", Times, serif;
@@ -95,8 +83,8 @@ footer {
   font-style: oblique;
   border: 3px solid darkgreen;
   border-radius: 8px;
-  padding: 50px;
-  width: fit-content;
+  padding: 25px;
+  max-width: 765px;
   min-width: 745px;
 }
 
@@ -109,4 +97,12 @@ footer {
 .article-header {
   color: #0b3101;
   min-width: 745px;
+}
+
+.section {
+    background: rgb(219, 248, 210);
+    max-width: 765px;
+    padding: 1px 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
