@@ -1,85 +1,112 @@
 html {
-
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, *:before, *:after {
-
-    box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
   background: #d0eed1;
   margin-left: 30vw;
-   
 }
 
 h1 {
   color: #044a20;
   background-color: #8fffaf;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-style: oblique;
   border: 3px solid darkgreen;
   border-radius: 8px;
   padding: 50px;
   width: fit-content;
   min-width: 745px;
-
 }
 
 h2 {
-    color: #2e4f3c;
-    font-family: 'Times New Roman', Times, serif;
-    min-width: 745px;
+  color: #2e4f3c;
+  font-family: "Times New Roman", Times, serif;
+  min-width: 745px;
 }
 
-
-
-.myPhoto {
-    color: #008125;
-    background-color:aquamarine;
-    padding: 10px 5px;
-    border: 1.5px solid rgb(97, 215, 175); 
-    border-radius: 10px;
-    width: fit-content;
-    min-width: 745px;
-
-}
-
-img {
-    border-radius: 100%;
-    border: 2px solid darkgreen;
-    margin-left: 10vw;
+h3 {
+  color: #0b3101;
+  min-width: 745px;
 }
 
 p {
-    color: #008125;
-    background-color: aquamarine;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: inherit;
-    max-width: 745px;
-    min-width: 745px;
-    border: 1.5px solid rgb(97, 215, 175); 
-    border-radius: 10px;
-    padding: 5px 10px;
-}
-
-footer {
-    color: #204d1d;
-    font-family: 'Times New Roman', Times, serif;
-    min-width: 745px;
-    margin: 10px 0px;
+  color: #008125;
+  background-color: aquamarine;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: inherit;
+  max-width: 745px;
+  min-width: 745px;
+  border: 1.5px solid rgb(97, 215, 175);
+  border-radius: 10px;
+  padding: 5px 10px;
 }
 
 a {
-    color: #0d3d1b;
+  color: #0d3d1b;
+}
+
+.myPhoto {
+  color: #008125;
+  background-color: aquamarine;
+  padding: 10px 5px;
+  border: 1.5px solid rgb(97, 215, 175);
+  border-radius: 10px;
+  width: fit-content;
+  min-width: 745px;
+}
+
+img {
+  border-radius: 100%;
+  border: 2px solid darkgreen;
+  margin-left: 10vw;
+}
+
+footer {
+  color: #204d1d;
+  font-family: "Times New Roman", Times, serif;
+  min-width: 745px;
+  margin: 10px 0px;
 }
 
 .aboutMe {
-    color: #0f3e08;
-    }
+  color: #0f3e08;
+}
 
-h3 {
-    color: #0b3101;
-    min-width: 745px;
+.navigation {
+  background: aquamarine;
+  border: 1.5px solid rgb(97, 215, 175);
+  border-radius: 10px;
+  padding: 5px 10px;
+  max-width: 745px;
+  min-width: 745px;
+}
+
+.page-header {
+  color: #044a20;
+  background-color: #8fffaf;
+  font-family: "Courier New", Courier, monospace;
+  font-style: oblique;
+  border: 3px solid darkgreen;
+  border-radius: 8px;
+  padding: 50px;
+  width: fit-content;
+  min-width: 745px;
+}
+
+.section-header {
+  color: #2e4f3c;
+  font-family: "Times New Roman", Times, serif;
+  min-width: 745px;
+}
+
+.article-header {
+  color: #0b3101;
+  min-width: 745px;
 }
