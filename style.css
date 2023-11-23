@@ -8,21 +8,13 @@ html {
   box-sizing: inherit;
 }
 
+main {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
 body {
   background: #d0eed1;
-  margin-left: 30vw;
-  margin-right: 30vw;
-}
-
-h2 {
-  color: #2e4f3c;
-  font-family: "Times New Roman", Times, serif;
-  min-width: 745px;
-}
-
-h3 {
-  color: #0b3101;
-  min-width: 745px;
 }
 
 p {
@@ -30,8 +22,6 @@ p {
   background-color: aquamarine;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: inherit;
-  max-width: 745px;
-  min-width: 745px;
   border: 1.5px solid rgb(97, 215, 175);
   border-radius: 10px;
   padding: 5px 10px;
@@ -47,21 +37,17 @@ a {
   padding: 10px 5px;
   border: 1.5px solid rgb(97, 215, 175);
   border-radius: 10px;
-  width: fit-content;
-  min-width: 745px;
-}
+  }
 
 img {
   border-radius: 100%;
   border: 2px solid darkgreen;
-  margin-left: 10vw;
 }
 
-footer {
+.footer {
   color: #204d1d;
   font-family: "Times New Roman", Times, serif;
-  min-width: 745px;
-  margin: 10px 0px;
+
 }
 
 .aboutMe {
@@ -73,8 +59,8 @@ footer {
   border: 1.5px solid rgb(97, 215, 175);
   border-radius: 10px;
   padding: 5px 10px;
-  max-width: 745px;
-  min-width: 745px;
+  position: sticky;
+  top: 0;
 }
 
 .page-header {
@@ -85,25 +71,19 @@ footer {
   border: 3px solid darkgreen;
   border-radius: 8px;
   padding: 25px;
-  max-width: 765px;
-  min-width: 765px;
 }
 
 .section-header {
   color: #2e4f3c;
   font-family: "Times New Roman", Times, serif;
-  min-width: 745px;
 }
 
 .article-header {
   color: #0b3101;
-  min-width: 745px;
 }
 
 .section {
     background: rgb(219, 248, 210);
-    max-width: 765px;
-    min-width: 765px;
     padding: 1px 10px;
     margin-bottom: 5px;
     margin-top: 5px;
